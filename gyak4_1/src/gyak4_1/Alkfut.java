@@ -29,16 +29,14 @@ public class Alkfut {
 			System.out.println(a.szovegVissza());
 		
 		int max = alkok[0].getPayment();
-		for(int i = 0; i <= alkok.length; i++) {
+		for(int i = 0; i < alkok.length; i++) {
 			if(alkok[i].getPayment() > max)
 				max = alkok[i].getPayment();
 		}
 		
-		System.out.println("A legnagyobb fizetesu alkalmazott: " + alkok[max].szovegVissza());
-		
 		for(int i = 0; i < alkok.length; i++) {
 			if(alkok[i].getPayment() == max)
-				System.out.println(alkok[i].szovegVissza());
+				System.out.println("A legmagasabb fizetesu alkalmazott: " + alkok[i].szovegVissza());
 		}
 		
 		int db = 0;
