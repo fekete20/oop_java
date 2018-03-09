@@ -39,9 +39,9 @@ public class Alkalmazott {
 		return (double) payment * ((double) 16/ (double) 100);
 	}
 	
-/*	public boolean isGreater(int a, int b) {
+	public boolean isGreater(Alkalmazott a) {
 		if(payment > a.payment)
 			return true;
-					return false;
-	}*/
+		return false;
+	}
 }
