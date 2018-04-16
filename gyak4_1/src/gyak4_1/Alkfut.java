@@ -81,6 +81,6 @@ public class Alkfut {
 			else
 				System.out.println("Az alk2 fizetese nagyobb"); */
 		
-}
+	}
 	
 }
